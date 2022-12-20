@@ -9,12 +9,11 @@ public class CoffeeMachine {
         this.coffeeFactory = coffeeFactory;
     }
 
-    public Coffee chooseCoffee(CoffeeType type) {
+    public void chooseCoffee(CoffeeType type) {
         Coffee coffee = coffeeFactory.createCoffee(type);
         coffee.makeCoffee();
         coffee.pourCoffee();
 
         System.out.println("Кофе готов");
-        return coffee;
     }
 }

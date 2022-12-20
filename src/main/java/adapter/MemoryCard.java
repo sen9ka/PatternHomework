@@ -1,4 +1,4 @@
-package apapter;
+package adapter;
 
 public class MemoryCard {
 

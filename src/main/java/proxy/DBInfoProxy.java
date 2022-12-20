@@ -2,7 +2,7 @@ package proxy;
 
 public class DBInfoProxy implements IDBConnector{
 
-    private DBInfo dbInfo;
+    private final DBInfo dbInfo;
     String FullDBName = "localhost:port/";
 
     public DBInfoProxy(DBInfo dbInfo) {

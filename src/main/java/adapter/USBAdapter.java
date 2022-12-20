@@ -1,7 +1,7 @@
-package apapter;
+package adapter;
 
 public class USBAdapter implements  IUSB{
-    private MemoryCard memoryCard;
+    private final MemoryCard memoryCard;
 
     public USBAdapter(MemoryCard memoryCard) {
         this.memoryCard = memoryCard;
